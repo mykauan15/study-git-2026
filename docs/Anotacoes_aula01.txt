@@ -1,0 +1,41 @@
+Criando uma pasta no D: chamada projeto, clica com botão direito e clica em get git bash here
+
+pwd | mostra onde você está, qual caminho/path você está; current path
+ls | retorna quais são os conteúdos dessa pasta
+ls -la | retorna quais são os conteúdos dessa pasta com mais informações (data de criação, tamanho)
+tee nomedoarquivo.txt | cria um arquivo editavel dentro do terminal; pra terminar, escreva ctrl+c
+cat | exibe o conteúdo de um arquivo no ambiente bash ( cat nomedoarquivo.txt e você verá o que foi escrito)
+
+mkdir nomedapasta | cria uma pasta
+cd nomedapasta | acessa a pasta
+rm nomedapasta | apaga a pasta
+
+history | retorna todos os comandos feitos nesse ambiente
+touch arquivo.txt | apenas cria o arquivo, não é possível editar o conteúdo pelo touch
+
+ctrl + l OU clear | limpa a tela; reorganiza sua visão
+cat + tab | preenchedor automático do nome do arquivo
+ctrl + c | cancelar
+
+echo | retorna o que você escreveu; ecoa
+echo lorem ipsum >> texto.txt | (Append) Escreve dentro do arquivo criando uma nova linha e retorna o texto
+echo lorem ipsum > texto.txt | (overwriting) Sobescreve dentro do arquivo e retorna o texto
+
+code . (sim, com espaço) | abre o vscode já na pasta em que você se encontra no terminal bash
+
+git init | Faz com que a sua paste se torne um repositório git
+git status | mostra o estado atual do projeto
+git branch | mostra qual branch você está
+git branch -M main | torna a main a branch principal
+
+não tem como commitar uma pasta vazia
+criar um arquivo .gitkeep dentro da pasta, faz a pasta ter alguma coisa, ou seja o .gitkeep é um placeholder pra popular a pasta e ela poder ser commitada
+
+git add . | adiciona alterações feitas (não é um commit)
+
+existem 3 estados de alterações:
+untracked - não rastreadas, você precisa as adicionar com o git add . 
+
+git commit -m | você prepara um arquivo pro seu repositório no git hub; o -m representa uma mensagem que deve ser escrita entre aspas
+
+git push -u | você envia um arquivo pro seu repositório no git hub
