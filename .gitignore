@@ -1,0 +1,2 @@
+# este arquivo serve pra listar quais arquivos devem ser ignorados na hora de commitar
+.env
